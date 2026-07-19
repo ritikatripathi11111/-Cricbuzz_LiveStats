@@ -2,25 +2,34 @@
 
 # 🏏 Cricbuzz LiveStats Dashboard
 
-### Live Cricket Analytics Platform powered by Python, Streamlit & MySQL
+### AI-Powered Live Cricket Analytics & SQL Dashboard
 
-**📊 Track Live Matches • Analyze Team Statistics • Execute SQL Analytics • Manage Player Records**
+<p>
+Track live cricket matches, analyze player & team performance, execute advanced SQL analytics, and visualize insights through an interactive dashboard.
+</p>
+
+<p>
+<i>📊 Analyze smarter. Query faster. Visualize better.</i>
+</p>
 
 <br>
 
-<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge"/>
+
+<br>
+
 <img src="https://img.shields.io/badge/Cricbuzz_API-00C853?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data_Analytics-6A1B9A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/SQL-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SQL_Analytics-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Data_Visualization-6A1B9A?style=for-the-badge"/>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/License-Academic-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Project-B.Tech%20Major%20Project-orange?style=flat-square"/>
+<img src="https://img.shields.io/badge/License-Academic-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Database-MySQL-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/API-Cricbuzz-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square"/>
@@ -29,127 +38,161 @@
 
 ---
 
-<div align="center">
+## 🚀 Project Highlights
 
-## 🚀 Bringing Live Cricket Data & SQL Analytics Together
+✨ Live Match Tracking
 
-**Live Match Tracking → Team Statistics → Player Management → SQL Analytics → Interactive Visualizations**
+📊 Interactive Dashboard
 
-</div>
+🏏 Team & Player Statistics
 
----
+📋 25+ SQL Analytical Queries
 
-<p align="center">
+📈 Data Visualization
 
-<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/>
-<img src="https://img.shields.io/badge/Streamlit-Framework-FF4B4B?style=for-the-badge&logo=streamlit"/>
-<img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql"/>
-<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas"/>
-<img src="https://img.shields.io/badge/API-Cricbuzz-success?style=for-the-badge"/>
+🗃 Complete CRUD Operations
 
-</p>
+⚡ Real-Time API Integration
 
-<p align="center">
-A modern cricket analytics platform that combines live match data, SQL analytics, player management, and interactive dashboards in one place.
-</p>
-
-</div>
+📥 CSV Export Support
 
 ---
 
 # 📑 Table of Contents
 
-- 📖 Project Overview
-- ✨ Features
-- 🛠 Tech Stack
-- 🏗 Project Architecture
-- 🗄 Database Schema
-- 📸 Screenshots
-- ⚙ Installation
-- 📊 SQL Analytics
-- 📂 Project Structure
-- 🚀 Future Enhancements
-- 👩‍💻 Author
+- [📖 Project Overview](#-project-overview)
+- [✨ Key Features](#-key-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [🏗 System Architecture](#-system-architecture)
+- [🗄 Database Design](#-database-design)
+- [📸 Application Screenshots](#-application-screenshots)
+- [📊 SQL Analytics](#-sql-analytics)
+- [📂 Project Structure](#-project-structure)
+- [⚙ Installation](#-installation)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [👩‍💻 Author](#-author)
 
 ---
 
 # 📖 Project Overview
 
-**Cricbuzz LiveStats Dashboard** is a data-driven cricket analytics application built with **Python, Streamlit, MySQL, and Cricbuzz RapidAPI**.
+Cricbuzz LiveStats Dashboard is a comprehensive cricket analytics platform that integrates **live cricket data**, **SQL analytics**, **interactive dashboards**, and **database management** into one application.
 
-The dashboard fetches cricket data, stores it in a relational database, and presents it through an interactive web interface. It also includes SQL-based analytics, player management, and visual insights, making it suitable for learning database systems, API integration, and dashboard development.
+The project demonstrates how REST APIs, relational databases, and data visualization techniques can be combined to create a modern sports analytics platform.
+
+Instead of manually searching multiple websites for statistics, users can access live match information, player records, team performance, and advanced SQL reports from one centralized dashboard.
 
 ---
 
-# ✨ Features
+## 🎯 Objectives
 
-| Feature               | Description                               |
-| --------------------- | ----------------------------------------- |
-| 🏠 Home Page          | Project overview and navigation           |
-| 📊 Dashboard          | KPI cards with charts and statistics      |
-| 🏏 Live Matches       | View live match details from Cricbuzz API |
-| 📈 Top Statistics     | Team score analysis with visualizations   |
-| 🗃 CRUD Operations    | Add, view, and delete player records      |
-| 📋 SQL Analytics      | Execute 25 analytical SQL queries         |
-| 📊 Data Visualization | Interactive charts and graphs             |
-| 📥 CSV Export         | Download SQL query results                |
+- Fetch live cricket data using Cricbuzz RapidAPI.
+- Store structured data in MySQL.
+- Build an interactive analytics dashboard with Streamlit.
+- Perform advanced SQL analysis on cricket datasets.
+- Visualize insights using charts and tables.
+- Demonstrate CRUD operations with relational databases.
+- Provide an educational project for DBMS, Python, and API integration.
+
+---
+
+# ✨ Key Features
+
+| Module             | Description                               |
+| ------------------ | ----------------------------------------- |
+| 🏠 Home            | Introduction and project navigation       |
+| 📊 Dashboard       | Overall project statistics and KPI cards  |
+| 🏏 Live Matches    | Live score and match information          |
+| 📈 Top Statistics  | Highest team scores and comparisons       |
+| 👤 Player Records  | Manage player information                 |
+| 🗃 CRUD Operations | Create, Read, Update & Delete player data |
+| 📋 SQL Analytics   | Execute 25+ analytical SQL queries        |
+| 📊 Charts          | Interactive visualizations                |
+| 📥 CSV Export      | Download SQL results                      |
 
 ---
 
 # 🛠 Tech Stack
 
-| Category             | Technology        |
-| -------------------- | ----------------- |
-| Programming Language | Python            |
-| Frontend             | Streamlit         |
-| Database             | MySQL             |
-| Data Analysis        | Pandas            |
-| API                  | Cricbuzz RapidAPI |
-| Visualization        | Streamlit Charts  |
-| SQL                  | MySQL             |
+| Category             | Technology         |
+| -------------------- | ------------------ |
+| Programming Language | Python             |
+| Framework            | Streamlit          |
+| Database             | MySQL              |
+| Data Processing      | Pandas             |
+| API                  | Cricbuzz RapidAPI  |
+| SQL                  | MySQL              |
+| Charts               | Streamlit Charts   |
+| IDE                  | Visual Studio Code |
+| Version Control      | Git & GitHub       |
 
 ---
 
-# 🏗 Project Architecture
+# 🏗 System Architecture
 
 ```text
-          Cricbuzz API
-                │
-                ▼
-        Python Service Layer
-                │
-                ▼
-         MySQL Database
-                │
-                ▼
-      Streamlit Dashboard UI
+                      🏏 Cricbuzz RapidAPI
+                               │
+                               ▼
+                    REST API Integration Layer
+                               │
+                               ▼
+                    Python Service Layer (Backend)
+                               │
+          ┌────────────────────┼────────────────────┐
+          ▼                    ▼                    ▼
+     MySQL Database      SQL Analytics        CRUD Operations
+          │                    │                    │
+          └────────────────────┼────────────────────┘
+                               ▼
+                  Streamlit Interactive Dashboard
+                               │
+                               ▼
+                            End User
 ```
 
 ---
 
-# 🗄 Database Schema
+# 🗄 Database Design
 
-The project uses a normalized relational database consisting of the following tables:
+The project follows a **normalized relational database** to efficiently manage cricket information.
 
-- 🏏 Teams
-- 👤 Players
-- 🏟 Venues
-- 📅 Matches
-- 📊 Match Scores
-- 🏆 Match Results
-- 🎯 Player Batting Statistics
-- 🎳 Player Bowling Statistics
-- 🧤 Player Fielding Statistics
-- 🤝 Partnerships
-- 🥇 Series
-- 🪙 Toss Details
-- 📝 Innings
+## 📋 Database Tables
+
+| Table             | Description                   |
+| ----------------- | ----------------------------- |
+| 🏏 Teams          | Stores team details           |
+| 👤 Players        | Player information            |
+| 🏟 Venues         | Match venue details           |
+| 📅 Matches        | Match schedules               |
+| 📊 Match Scores   | Innings and score information |
+| 🏆 Match Results  | Final match results           |
+| 🥇 Series         | Tournament and series details |
+| 🎯 Batting Stats  | Individual batting statistics |
+| 🎳 Bowling Stats  | Individual bowling statistics |
+| 🧤 Fielding Stats | Catch, stumpings & run-outs   |
+| 🤝 Partnerships   | Partnership records           |
+| 🪙 Toss Details   | Toss winner and decision      |
+| 📝 Innings        | Innings-wise information      |
+
+---
+
+## 📌 Database Features
+
+- Relational Database Design
+- Primary & Foreign Key Relationships
+- Data Integrity
+- Normalized Tables
+- SQL-Based Analytics
+- Fast Query Execution
 
 ---
 
 # 📸 Application Screenshots
 
-## 🏠 Home
+## 🏠 Home Page
+
+> Overview of the application and navigation.
 
 ![Home](assets/home.png)
 
@@ -157,11 +200,15 @@ The project uses a normalized relational database consisting of the following ta
 
 ## 📊 Dashboard
 
+> Displays KPI cards, charts, and summary statistics.
+
 ![Dashboard](assets/dashboard.png)
 
 ---
 
 ## 🏏 Live Matches
+
+> Shows live cricket matches fetched from Cricbuzz RapidAPI.
 
 ![Live Matches](assets/live_matches.png)
 
@@ -169,11 +216,15 @@ The project uses a normalized relational database consisting of the following ta
 
 ## 📈 Top Statistics
 
-![Top Stats](assets/top_stats.png)
+> Visual comparison of top-performing teams and scores.
+
+![Top Statistics](assets/top_stats.png)
 
 ---
 
 ## 🗃 CRUD Operations
+
+> Add, view, and manage player records stored in MySQL.
 
 ![CRUD](assets/crud.png)
 
@@ -181,25 +232,45 @@ The project uses a normalized relational database consisting of the following ta
 
 ## 📋 SQL Analytics
 
+> Execute analytical SQL queries and export results.
+
 ![SQL Analytics](assets/sql_analytics.png)
 
 ---
 
 # 📊 SQL Analytics
 
-The dashboard includes **25 analytical SQL queries**, such as:
+The dashboard includes **25+ analytical SQL queries** for exploring cricket data.
+
+### Some featured queries include:
 
 - ✅ Indian Players
-- ✅ Team Wins
-- ✅ Top ODI Run Scorers
-- ✅ Match Results
-- ✅ Bowling Performance
+- ✅ Overseas Players
+- ✅ Team Win Percentage
+- ✅ Highest ODI Scores
+- ✅ Top Run Scorers
+- ✅ Bowling Performance Analysis
 - ✅ Fielding Statistics
-- ✅ Toss Analysis
-- ✅ Partnerships
-- ✅ Player Rankings
-- ✅ Career Summary
-- ✅ Recent Batting Form
+- ✅ Toss Decision Analysis
+- ✅ Match Result Summary
+- ✅ Partnership Records
+- ✅ Venue-wise Statistics
+- ✅ Player Career Summary
+- ✅ Recent Batting Performance
+- ✅ Series-wise Match Count
+- ✅ Team Performance Comparison
+
+---
+
+## 📈 Analytics Features
+
+- Interactive SQL execution
+- Dynamic result tables
+- CSV export
+- Fast query processing
+- Cricket statistics analysis
+- Performance comparison
+- Team & player insights
 
 ---
 
@@ -207,9 +278,13 @@ The dashboard includes **25 analytical SQL queries**, such as:
 
 ```text
 cricbuzz_livestats/
-│── app.py
-│── requirements.txt
-│── README.md
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── database/
+│   └── db_connection.py
 │
 ├── pages/
 │   ├── home.py
@@ -220,55 +295,242 @@ cricbuzz_livestats/
 │   └── sql_queries.py
 │
 ├── services/
-│
-├── database/
+│   ├── dashboard_services.py
+│   ├── live_match_service.py
+│   ├── top_stats_service.py
+│   ├── crud_services.py
+│   └── sql_services.py
 │
 ├── assets/
+│   ├── home.png
+│   ├── dashboard.png
+│   ├── live_matches.png
+│   ├── top_stats.png
+│   ├── crud.png
+│   └── sql_analytics.png
 │
 └── notebooks/
 ```
 
 ---
 
+## 📁 Project Modules
+
+### 🏠 Home
+
+Provides project overview and navigation.
+
+### 📊 Dashboard
+
+Displays KPIs, charts, and summary statistics.
+
+### 🏏 Live Matches
+
+Fetches real-time match information from Cricbuzz RapidAPI.
+
+### 📈 Top Statistics
+
+Analyzes team scores and cricket performance.
+
+### 🗃 CRUD Operations
+
+Manages player records stored in MySQL.
+
+### 📋 SQL Analytics
+
+Runs analytical SQL queries and exports results.
+
+---
+
 # ⚙ Installation
 
+Follow these steps to run the project locally.
+
+### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/your-username/cricbuzz-livestats.git
+git clone https://github.com/ritikatripathi11111/-Cricbuzz_LiveStats
+```
 
+### 2️⃣ Navigate to the Project Folder
+
+```bash
 cd cricbuzz-livestats
+```
 
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+### 4️⃣ Configure Database
+
+- Install MySQL
+- Create a database
+- Import the provided SQL file
+- Update your database credentials in:
+
+```text
+database/db_connection.py
+```
+
+### 5️⃣ Configure Cricbuzz API
+
+Add your RapidAPI credentials inside the API service file.
+
+```python
+API_KEY = "YOUR_RAPIDAPI_KEY"
+```
+
+### 6️⃣ Run the Application
+
+```bash
 streamlit run app.py
 ```
+
+The application will be available at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+# ▶️ How to Use
+
+After launching the application, you can explore the following modules:
+
+### 🏠 Home
+
+- Project overview
+- Navigation
+- Feature summary
+
+### 📊 Dashboard
+
+- KPI cards
+- Match statistics
+- Team insights
+- Charts
+
+### 🏏 Live Matches
+
+- View live cricket matches
+- Match status
+- Venue details
+- Team information
+
+### 📈 Top Statistics
+
+- Highest team scores
+- Performance comparison
+- Interactive charts
+
+### 🗃 CRUD Operations
+
+- Add player
+- View players
+- Update records
+- Delete records
+
+### 📋 SQL Analytics
+
+- Execute analytical SQL queries
+- View results instantly
+- Export results as CSV
+
+---
+
+# 📊 Learning Outcomes
+
+This project helped in understanding:
+
+- REST API Integration
+- Python Programming
+- Streamlit Dashboard Development
+- MySQL Database Design
+- SQL Query Optimization
+- CRUD Operations
+- Data Visualization
+- Data Analytics
+- Git & GitHub
+- Project Deployment
 
 ---
 
 # 🚀 Future Enhancements
 
+The project can be extended with:
+
 - 🔐 User Authentication
+- 👥 Multi-user Support
 - 🌙 Dark Mode
-- 📱 Mobile Responsive UI
-- 📊 Advanced Interactive Charts
+- 📱 Responsive Mobile UI
 - 🤖 AI-based Match Prediction
-- 👥 Player Comparison Dashboard
+- 📊 Advanced Interactive Charts
+- 📈 Player Comparison Dashboard
+- 🏆 Tournament Analytics
 - 📄 PDF Report Generation
+- ☁ Cloud Database Integration
+- 🚀 Streamlit Cloud Deployment
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to:
+
+- Cricbuzz RapidAPI for providing live cricket data.
+- Streamlit for simplifying dashboard development.
+- MySQL for efficient relational database management.
+- Pandas for data manipulation and analysis.
+- The open-source community for valuable learning resources.
 
 ---
 
 # 👩‍💻 Author
 
-**Ritika Tripathi**
+## Ritika Tripathi
 
-🎓 B.Tech – Computer Science Engineering  
-🏫 Allenhouse Institute of Technology, Kanpur
+**B.Tech – Computer Science & Engineering**
+
+Allenhouse Institute of Technology, Kanpur
+
+### Technical Skills
+
+- Python
+- MySQL
+- SQL
+- Streamlit
+- Pandas
+- REST API
+- Data Analytics
+- Data Visualization
+- Git & GitHub
+
+---
+
+# 📜 License
+
+This project has been developed for **academic and educational purposes** as part of a B.Tech major project.
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project useful, don't forget to star the repository!
+# ⭐ Support the Project
 
-**Made with ❤️ using Python, Streamlit & MySQL**
+If you found this project useful,
+
+### ⭐ Star this repository
+
+It helps others discover the project and motivates future improvements.
+
+---
+
+### 💙 Thank you for visiting!
+
+**Made with ❤️ using Python, Streamlit, MySQL & Cricbuzz RapidAPI**
 
 </div>
